@@ -1,6 +1,18 @@
 {
-	"extends": "@robertakarobin/csslint",
-	"ignoreFiles": [
-		"**/node_modules/*"
-	]
+	"overrides": [
+		{
+			"customSyntax": "postcss-html",
+			"files": [
+				"**/*.md"
+			]
+		},
+		{
+			"customSyntax": "postcss-lit",
+			"files": [
+				"**/*.ts",
+				"**/*.js"
+			]
+		}
+	],
+	"rules": {}
 }
