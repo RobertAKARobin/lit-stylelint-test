@@ -1,0 +1,6 @@
+{
+	"extends": "@robertakarobin/csslint",
+	"ignoreFiles": [
+		"**/node_modules/*"
+	]
+}
