@@ -1,5 +1,6 @@
 {
 	"recommendations": [
-		"stylelint.vscode-stylelint"
+		"stylelint.vscode-stylelint",
+		"pushqrdx.inline-html"
 	]
 }
